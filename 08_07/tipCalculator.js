@@ -6,7 +6,7 @@ const tipCalculator = (sum, percentage, currency, prefix) =>
   let tip = sum * (percentage / 100);
   let total = sum + tip;
   if (prefix) {
-    console.log(`
+    console.log('
     Sum before tip: ${currency}${sum}
     Tip percentage: ${percentage}%
     Tip:            ${currency}${tip.toFixed(2)}

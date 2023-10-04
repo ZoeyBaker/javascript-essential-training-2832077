@@ -21,6 +21,7 @@ const frogpack = {
   strapLength: {
     left: 10,
     right: 10,
+  
   },
   lidOpen: false,
   image: "../../assets/images/frog.svg",
